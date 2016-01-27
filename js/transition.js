@@ -34,7 +34,7 @@ var PageTransitions = (function() {
 			if( isAnimating ) {
 				return false;
 			}
-			animcursor = Math.abs(Math.random()* 67);
+			animcursor = Math.floor(Math.random()* 67);
 			console.log("animcursor:" + animcursor);
 
 			if( animcursor > 67 ) {
