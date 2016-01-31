@@ -44,34 +44,6 @@ html, body { height: 100%; }
 
 /* Text Styles, Colors, Backgrounds */
 
-.pt-page h1 {
-	position: absolute;
-	font-weight: 300;
-	font-size: 4.4em;
-	line-height: 1;
-	letter-spacing: 6px;
-	margin: 0;
-	top: 12%;
-	width: 100%;
-	text-align: center;
-	text-transform: uppercase;
-	word-spacing: -0.3em;
-}
-
-.pt-page h1 span {
-	font-family: 'Satisfy', serif;
-	font-weight: 400;
-	font-size: 40%;
-	text-transform: none;
-	word-spacing: 0;
-	letter-spacing: 0;
-	display: block;
-	opacity: 0.4;
-}
-
-.pt-page h1 strong {
-	color: rgba(0,0,0,0.1);
-}
 
 .pt-page-1 {
 	background: #0ac2d2;
@@ -105,7 +77,7 @@ html, body { height: 100%; }
 	z-index: 999999;
 	top: 12%;
 	left: 50%;
-	margin-top: 130px;
+	margin-top: 200px;
 	-webkit-transform: translateX(-50%);
 	-moz-transform: translateX(-50%);
 	-ms-transform: translateX(-50%); 
@@ -155,28 +127,6 @@ html, body { height: 100%; }
 
 .touch .pt-triggers .dl-menuwrapper {
 	display: none;
-}
-
-.pt-message {
-	display: none;
-	position: absolute;
-	z-index: 99999;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	background: #da475c;
-	color: #fff;
-	text-align: center;
-}
-
-.pt-message p {
-	margin: 0;
-	line-height: 60px;
-	font-size: 26px;
-}
-
-.no-cssanimations .pt-message {
-	display: block;
 }
 
 @media screen and (max-width: 47.4375em) {

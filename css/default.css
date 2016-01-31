@@ -10,3 +10,41 @@ body {
 	overflow:hidden;
 }
 
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0;}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+	font-family: Calibri,Arial, sans-serif;
+	color:#fff;
+	background:#333;
+	overflow: hidden;
+}
+
+#quote {
+	width:100%;
+	font-family: 'Caudex', serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 2.5em;
+	text-align: center;
+	position: relative;
+	margin-top: 80px;
+}
+
+
+#author {
+	font-size: 1.5em;
+	font-weight: 400;
+	margin:0 auto;
+	text-transform: uppercase;
+	position: absolute;
+	margin-top: 3px;
+	margin-left: 1000px;
+
+}
+
+

@@ -14,9 +14,10 @@ var QuoteMachine = (function(){
 		}
 		console.log("Begin append code");
 		prev = num;
+		
 
-		$quoteHolder.empty().delay(5000).append(quotes[0]);
-		$authorHolder.empty().delay(5000).append(quotes[1]);
+		$quoteHolder.empty().append('"' + quotes[0] + '"').addClass('hvr-wobble-bottom rotateInUpLeft ');
+		$authorHolder.empty().append(quotes[1]).addClass('hvr-buzz ');
 	};//end function
 
 	$( '#iterateEffects' ).on('click', changeQuote);
